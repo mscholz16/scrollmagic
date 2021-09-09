@@ -1,0 +1,55 @@
+header,
+footer {
+  height: 100vh;
+}
+
+main {
+  background: #b1dcac;
+  height: 300vh;
+  overflow: hidden;
+  position: relative;
+
+  &.text {
+    height: 240px;
+  }
+
+  &.circle {
+    height: 100vh;
+  }
+
+  //&.screen {
+  //  height: 100vh;
+  //}
+}
+
+.container {
+  &-slider {
+    background: #beab87;
+    display: flex;
+    flex-wrap: nowrap;
+    left: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    transform: rotateZ(-4deg);
+    width: 150vw;
+  }
+
+  &-text {
+    background: orange;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &-circle {
+    &-block-text {
+      background: blue;
+      height: 75vh;
+      margin:200px 0 0 45vw;
+      width: 45vw;
+      z-index: 1;
+    }
+  }
+}

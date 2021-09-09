@@ -1,0 +1,30 @@
+.img {
+  &-slider {
+    &.iphone,
+    &.ipad,
+    &.imac {
+      height: 100vh;
+      width: auto;
+    }
+  }
+
+  &-circle {
+    display: inline-block;
+    height: 500px;
+    left: 32%;
+    position: absolute;
+    top: 40%;
+    width: 500px;
+  }
+
+  //&-screen {
+  //  display: inline-block;
+  //  height: 80vh;
+  //  left: 50%;
+  //  margin-top: 20vh;
+  //  position: absolute;
+  //  top: 34%;
+  //  transform: translate(-50%, -50%);
+  //  width: 80vw;
+  //}
+}
